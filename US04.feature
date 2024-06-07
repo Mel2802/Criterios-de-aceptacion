@@ -1,25 +1,19 @@
-Feature: US05 - Desplazarse fácilmente entre las secciones de la página web
+Feature: US04 - Búsqueda y Conexión de compañeros de aprendizaje
 Como usuario
-Quiero desplazarme entre las secciones de la página web 
-Para observar información importante destinada hacia mi persona
+quiero poder buscar y conectarme con otros usuarios que estén interesados en aprender inglés , que
+compartan mis niveles de inglés u objetivos
 
-Scenario: Escenario 01: Desplazamiento correcto
-    Dado que el usuario se encuentra en la Landing page
-    Y quiera <dirigirse a otra seccion>
-    Cuando seleccione los botones que están en las pestañas
-    Entonces lo <redirigira a la seccion elegida>
+Scenario: Escenario: Búsqueda y Conexión de compañeros de aprendizaje.
+    Dado el usuario ya se creó la cuenta en la app.
+    Cuando el usuario selecciona la opción <iniciar con la conexión>
+     Y  el sistema mostró el mensaje de autenticidad exitosa
+    Entonces aparece la opcion <Buscar usuarios> Y el sistema me muestra a los usuarios con quien puedo contactarme.
 
     Examples: INPUT
-        | dirigirse a otra seccion |
-        | Servicios  | Nosotros  | contáctanos |
+        | Iniciar con la conexión |
+        | Conexion 1, Conexion 2 |
         
     Examples: OUTPUT
-        | redirigira a la seccion elegida |
-        | Servicios  | Nosotros  | contáctanos |
+        | buscar usuarios |
+        | Luis, Daniel|
 
-
-Scenario: E3: Acceso a la sección servicios 
-    Dado que el usuario se encuentra en la Landing page
-    Y quiera dirigirse a la sección “App” 
-    Cuando haga clic en las pestañas superiores en “App”
-    Entonces el sistema redirecciona a “App”
