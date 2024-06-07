@@ -1,4 +1,4 @@
-Feature: US13 - Desplazarse fácilmente entre las secciones de la página web
+Feature: US05 - Desplazarse fácilmente entre las secciones de la página web
 Como usuario
 Quiero desplazarme entre las secciones de la página web 
 Para observar información importante destinada hacia mi persona
