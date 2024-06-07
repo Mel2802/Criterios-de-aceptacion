@@ -1,4 +1,4 @@
-Feature: US05 - Sistema para ver las horas usadas en la aplicación.
+Feature: US10 - Sistema para ver las horas usadas en la aplicación.
 Como usuario
 Quiero poder visualizar las horas usadas en la aplicación
 Para así darme una idea de cuántas horas invierto a aprender otro idioma.
