@@ -1,7 +1,8 @@
-Feature: US05 - Sistema de Mensajería y Videoconferencia.
+Feature: US05 - Sistema para ver las horas usadas en la aplicación.
 Como usuario
-Quiero tener acceso a un sistema de mensajería
-Para comunicarme con mis compañeros de aprendizaje y coordinar sesiones de práctica.
+Quiero poder visualizar las horas usadas en la aplicación
+Para así darme una idea de cuántas horas invierto a aprender otro idioma.
+
  Scenario: Sistema para ver las horas usadas en la aplicación
     Dado que el usuario ya está haciendo conexiones con compañeros de aprendizaje.
     Cuando el usuario selecciona la opción <Tiempo> 
