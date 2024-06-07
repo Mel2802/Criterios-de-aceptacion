@@ -6,7 +6,8 @@ Para comunicarme con mis compañeros de aprendizaje y coordinar sesiones de prá
 Scenario: Sistema de Mensajería y Videoconferencia.
     Dado el usuario ya se creó la cuenta en la app.
     Cuando el usuario selecciona la opción <mensajería>
-    Entonces  el sistema muestra una página donde aparecen los mensajes que me llegan de mis compañeros de aprendizaje.
+    Entonces  el sistema muestra una página donde aparecen los mensajes que me llegan de mis compañeros 
+    de aprendizaje.
 
     Examples: INPUT
         | dirigirse a la opcion mensajería|
