@@ -16,4 +16,4 @@ retroalimentación de mis compañeros de aprendizaje.
         
     Examples: OUTPUT
         | redirigira a la opcion progreso|
-        | Pablo esta avanzando en un 70% en aprender ingles , se le recomeinda practicar un poco más la gramatica  |
+        | Pablo esta avanzando en un 70% en aprender ingles , se le recomienda ...  |
